@@ -19,15 +19,17 @@ CCF-CSP201403-1 相反数
 
 """
 
+
 def main():
 	number = int(input())
 	sequence = input().split()
 	count = 0
 	for i in range(number):
-		for j in range(i+1, number):
+		for j in range(i + 1, number):
 			if int(sequence[i]) == -int(sequence[j]):
 				count += 1
 				break
 	print(count)
+
 
 main()

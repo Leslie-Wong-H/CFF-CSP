@@ -24,14 +24,15 @@ Right
 
 """
 
+
 def main():
 	ISBN = input()
 	seq = ISBN.split('-')
 	n = "".join(seq)
-	#末尾可能是‘X’
+	# 末尾可能是‘X’
 	sum = 0
 	for i in range(9):
-		sum += int(n[i]) * (i+1)
+		sum += int(n[i]) * (i + 1)
 
 	id = sum % 11
 	if id != 10:
@@ -46,10 +47,9 @@ def main():
 		else:
 			print(ISBN[0:-1] + 'X')
 
-	#  join() 方法用于将序列中的元素以指定的字符<连接>生成一个新的字符串
-	#  split() 通过指定分隔符对"字符串"进行<切片>
+
+#  join() 方法用于将序列中的元素以指定的字符<连接>生成一个新的字符串
+#  split() 通过指定分隔符对"字符串"进行<切片>
 
 
 main()
-
-
