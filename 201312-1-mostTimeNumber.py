@@ -1,6 +1,7 @@
 #!/user/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 """
 CCF-CSP201312-1 出现次数最多的数
 
