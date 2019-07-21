@@ -26,7 +26,6 @@ Right
 """
 
 
-
 def main():
 	ISBN = input()
 	seq = ISBN.split('-')
